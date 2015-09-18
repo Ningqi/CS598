@@ -60,6 +60,7 @@ for i = 1:m
 	[Jtrain, grad_train] = linearRegCostFunction(tX, tY, theta, 0);
 	[Jval, grad_val] = linearRegCostFunction(Xval, yval, theta, 0);
 	error_train(i) = Jtrain;
+	error_val(j) = Jval;
 end	
 
 
