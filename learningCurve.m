@@ -63,7 +63,7 @@ for i = 1:m
 	error_val(j) = Jval;
 end	
 
-
+222222
 
 
 
