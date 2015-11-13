@@ -59,7 +59,7 @@ for i = 1:m
 	theta = trainLinearReg(tX, tY, lambda);
 	[Jtrain, grad_train] = linearRegCostFunction(tX, tY, theta, 0);
 	[Jval, grad_val] = linearRegCostFunction(Xval, yval, theta, 0);
-	bla bla bla from v2
+	bla bla bla from v1 lala
 	error_train(i) = Jtrain;
 end	
 
